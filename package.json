@@ -1,6 +1,6 @@
 {
   "name": "actionrecorder",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "Keep all user actions in a centralized object",
   "main": "dist/actionrecorder.js",
   "jsnext:main": "dist/actionrecorder.es2015.js",

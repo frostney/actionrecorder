@@ -4,7 +4,9 @@ class ActionList {
   }
 
   screen(screen) {
-    return new ActionList(this.items.filter(action => action.screen === screen));
+    const screens = Array.isArray(screen) ? screen : [screen];
+
+    return new ActionList(this.items.filter(action => screens.indexOf(action.screen) >= 0));
   }
 
   type(type) {
